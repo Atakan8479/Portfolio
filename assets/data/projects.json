@@ -1,0 +1,26 @@
+[
+{
+"title": "Latency‑Aware MEC Host Selection",
+"summary": "We present a simple, Simu5G-integrated host selection policy that directly integrates host CPU utilization and anticipated UE–host latency. The architecture works into the MultiMecHost situation, is transparent and reproducible, and does not rely on complex optimization stacks.",
+"stack": ["C++", "OMNeT++", "Simu5G"],
+"image": "assets/img/MultiMec_MultiMecHost.png",
+"repo": "https://github.com/Atakan8479/Latency-Aware-MEC-Host-Selection-in-Simu5G",
+"demo": "https://yourdomain.com/demo"
+},
+{
+"title": "AI Chatbot for Internal Analytics",
+"summary": "created a chatbot using .NET and Angular analytics that converts NL queries into secure SQL and provides tabular data. Prompts/SQL are logged for traceability; role-based access, and multi-table support through a versioned hot-reload schema catalog are the next steps.",
+"stack": ["C# .NET", "React", "SQL"],
+"image": "assets/img/AIChatBot.jpeg",
+"repo": "https://github.com/Atakan8479/GB.SQLChatBot.API",
+"demo": ""
+},
+{
+"title": "Pet Adoption System",
+"summary": "A desktop Java application called the Pet Adoption System provides tools for analyzing pet data at adoption centers.  This application connects to a database to retrieve pet-related data, then shows computed metrics like average age, weight, and adoption cost, among others.",
+"stack": ["Java", "SQL"],
+"image": "assets/img/PetAdoptionSystemLogo.png",
+"repo": "https://github.com/Atakan8479/Pet_Adoption_System",
+"demo": "https://yourdomain.com/"
+}
+]
