@@ -505,12 +505,14 @@ body{ padding-top: var(--header-h); }
     justify-items: center;
   }
   .headshot {
-    width: 80vw;
-    max-width: 340px;
+    width: 100%;
+    max-width: 320px;
     height: auto;
-    aspect-ratio: 11 / 12;
-    margin-bottom: 1.2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 1.2rem;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.10);
   }
 }
 .about-intro {
