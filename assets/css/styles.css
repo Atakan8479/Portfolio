@@ -499,7 +499,20 @@ body{ padding-top: var(--header-h); }
   transition: box-shadow 0.18s, transform 0.12s;
   aspect-ratio: 11 / 12;
 }
-
+@media (max-width: 600px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .headshot {
+    width: 80vw;
+    max-width: 340px;
+    height: auto;
+    aspect-ratio: 11 / 12;
+    margin-bottom: 1.2rem;
+    border-radius: 1.2rem;
+  }
+}
 .about-intro {
   font-size: 1.15rem;
   line-height: 1.7;
