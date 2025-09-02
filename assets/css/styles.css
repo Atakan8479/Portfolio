@@ -164,7 +164,7 @@ html[data-theme="light"] .site-header { background: rgba(255,255,255,.75); }
 }
 
 /* HERO */
-.hero { padding: 4rem 0 2rem; }
+.hero { padding: 2rem 0 2rem; }
 .hero h1 { font-size: clamp(1.9rem, 3.2vw, 2.7rem); margin: 0 0 .6rem; }
 .lead {
   font-size: 1.18rem;
@@ -500,29 +500,25 @@ body{ padding-top: var(--header-h); }
   aspect-ratio: 11 / 12;
 }
 /* Mobile: bigger, proportional headshot */
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .about-grid { 
     grid-template-columns: 1fr; 
     justify-items: center; 
   }
-
-  .headshot{
-    /* make it noticeably larger on small screens */
-    width: clamp(280px, 88vw, 420px);
-    max-width: none;
-
-    /* keep proportions and a portrait feel */
-    aspect-ratio: 4 / 5;          /* try 1 / 1 if you prefer square */
-    height: auto !important;      /* beat any global img height */
+  .headshot {
+    width: 95vw;
+    max-width: 440px;
+    aspect-ratio: 4 / 5;
+    height: auto !important;
     object-fit: cover;
-    object-position: 50% 20%;     /* nudge focus slightly upward */
-
-    /* keep your existing styling */
+    object-position: 50% 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 1.2rem;
     box-shadow: 0 4px 18px rgba(0,0,0,0.10);
+    border: 2px solid var(--border);
+    background: var(--bg-elev);
   }
 }
 
